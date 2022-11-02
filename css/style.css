@@ -1,12 +1,17 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.header {
+body {
+    width: 1350px;
+
+}
+
+.header-container {
     background-color: #AED8E6;
-    width: 100%;
+    width: 1350px;
     height: 80px;
     display: flex;
 
@@ -15,7 +20,7 @@
 .flex-header {
     background-color: #DAA520;
     border: 2px dashed black;
-    width: 80%;
+    width: 900px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -34,18 +39,27 @@ ul {
 
 
 
-.flex-container {
-    max-width: 100%;
-    min-height: 600px;
+.container {
+    max-width: 1350px;
+    min-height: 400px;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.flex-container {
+    margin: 50px 0;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .first-container {
     background-color: #AED8E6;
-    min-height: calc(600px - 80px);
+    min-height: calc(400px - 80px);
     flex-direction: column;
     background-color: #0A008B;
     display: flex;
@@ -56,16 +70,29 @@ ul {
 }
 
 .pink-card {
-    margin: 70px;
-    flex-basis: 50%;
-    min-height: 450px;
-    width: 70%;
+    margin: 50px;
+    min-height: 300px;
+    width: 50%;
+    border: 2px dashed black;
     background-color: #EE82ED;
     
 }
 
+.card {
+    min-height: 400px;
+    width: 60%;
+    border: 2px dashed black;
+    background-color: #1E90FF;
+}
+
+.side {
+    min-height: 400px;
+    width: 40%;
+    border: 2px dashed black;
+    background-color: #FFC0CA;
 
 
+}
 .odd {
     background-color: #ffffff;
 
@@ -76,7 +103,15 @@ ul {
 }
 
 .big {
-    min-height: 1000px;
+    min-height: 800px;
+
+}
+
+.big-card {
+    width: 900px;
+    min-height: 650px;
+    border: 2px dashed black;
+    background-color: #228B21;
 }
 
 .last {
